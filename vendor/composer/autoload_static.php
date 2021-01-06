@@ -7,9 +7,9 @@ namespace Composer\Autoload;
 class ComposerStaticInit4831d884419e949f8c20bb3201ccc4f6
 {
     public static $files = array (
-        'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
-        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -70,8 +70,8 @@ class ComposerStaticInit4831d884419e949f8c20bb3201ccc4f6
         'App\\Controllers\\Controller' => __DIR__ . '/../..' . '/App/Controllers/Controller.php',
         'App\\Controllers\\HomeController' => __DIR__ . '/../..' . '/App/Controllers/HomeController.php',
         'App\\Controllers\\LoginController' => __DIR__ . '/../..' . '/App/Controllers/LoginController.php',
-        'App\\Controllers\\MauriceController' => __DIR__ . '/../..' . '/App/Controllers/MauriceController.php',
         'App\\Controllers\\ProfileController' => __DIR__ . '/../..' . '/App/Controllers/ProfileController.php',
+        'App\\Controllers\\QuoteController' => __DIR__ . '/../..' . '/App/Controllers/QuoteController.php',
         'App\\Controllers\\RegisterController' => __DIR__ . '/../..' . '/App/Controllers/RegisterController.php',
         'App\\Controllers\\UserController' => __DIR__ . '/../..' . '/App/Controllers/UserController.php',
         'App\\Database\\MigrateDatabase' => __DIR__ . '/../..' . '/App/Database/MigrateDatabase.php',
@@ -85,6 +85,9 @@ class ComposerStaticInit4831d884419e949f8c20bb3201ccc4f6
         'App\\Models\\Model' => __DIR__ . '/../..' . '/App/Models/Model.php',
         'App\\Models\\UserModel' => __DIR__ . '/../..' . '/App/Models/UserModel.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
+        'ComposerAutoloaderInit4831d884419e949f8c20bb3201ccc4f6' => __DIR__ . '/..' . '/composer/autoload_real.php',
+        'Composer\\Autoload\\ClassLoader' => __DIR__ . '/..' . '/composer/ClassLoader.php',
+        'Composer\\Autoload\\ComposerStaticInit4831d884419e949f8c20bb3201ccc4f6' => __DIR__ . '/..' . '/composer/autoload_static.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Dotenv\\Dotenv' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Dotenv.php',
         'Dotenv\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Exception/ExceptionInterface.php',

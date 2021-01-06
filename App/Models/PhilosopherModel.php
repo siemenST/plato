@@ -2,10 +2,10 @@
 
 namespace App\Models;
 
-class ArtistModel extends Model
+class PhilosopherModel extends Model
 {
     // Name of the table
-    protected $model = "artist";
+    protected $model = "philosophers";
 
     // Max number of records when fetching all records from table
     protected $limit;
@@ -13,10 +13,9 @@ class ArtistModel extends Model
     // Non writable fields
     protected $protectedFields = [
         'id',
-        'updated',
-        'deleted',
-        'updated_by',
-        'deleted_by',
+        'name',
+        'quote',
+    
     ];
 
     public function __construct()
@@ -30,4 +29,4 @@ class ArtistModel extends Model
 
 }
 
-new ArtistModel;
+new PhilosopherModel;
