@@ -23,4 +23,6 @@ $router->post('login/auth', 'App/Controllers/LoginController.php@login');
 $router->get('register', 'App/Controllers/RegisterController.php@index');
 $router->post('register', 'App/Controllers/RegisterController.php@store');
 
+$router->get('generate-quote', 'App/Controllers/QuoteController.php@random');
+
 
