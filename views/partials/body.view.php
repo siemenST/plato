@@ -9,8 +9,8 @@
                <div id="buttongen">
                
 
-               <form action="generator.php" method="post">
-               <button type="button" id="generator" input type="submit">Generate quote!</button>
+               <form action="../../App/Models/generator.php" method="GET">
+               <button type="submit" id="generator" input type="submit">Generate quote!</button>
                </form>
             </div>
          </div>

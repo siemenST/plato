@@ -8,7 +8,9 @@ class QuoteController
 {
     public function random()
     {
+          
         
+
     }
 
 }
